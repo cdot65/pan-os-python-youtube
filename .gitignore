@@ -159,5 +159,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Ignore dynaconf secret files
-.secrets.*
+# Ignore dynaconf files, providing `example.secrets.toml` and `example.settings.toml` files.
+.secrets.toml
+settings.toml
